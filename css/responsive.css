@@ -1,0 +1,178 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-search {
+        padding: 15px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .mg {
+        margin: 0px 0px;
+    }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+    }
+    .menu-area-main {
+        height: 45px;
+        overflow-y: auto;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logo {
+        width: 10%;
+    }
+    .banner_taital {
+        font-size: 42px;
+    }
+    .arrival_text {
+        font-size: 28px;
+    }
+    .arrival_text::after {
+        right: initial;
+        width: 70px;
+        top: 32px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-light .navbar-toggler {
+        border-color: #000;
+    }
+    .banner_taital {
+        width: 100%;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .arrival_text {
+        font-size: 28px;
+    }
+    .arrival_text::after {
+        right: initial;
+        width: 70px;
+        top: 32px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 175px;
+        top: 90%;
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        left: 236px;
+        top: 90%;
+        display: none;
+    }
+    .banner_section {
+        background: #552583;
+    }
+    .banner_taital {
+        width: 75%;
+        font-size: 42px;
+        line-height: 60px;
+    }
+    .banner_text {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 575px) {
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 175px;
+        top: 90%;
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        left: 236px;
+        top: 90%;
+        display: none;
+    }
+    .banner_section {
+        background: #552583;
+    }
+    .banner_taital {
+        width: 95%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner_text {
+        width: 100%;
+    }
+    .arrival_text {
+        font-size: 40px;
+    }
+    .arrival_text::after {
+        right: initial;
+        width: 80px;
+        top: 42px;
+    }
+    
+    .footer_menu li {
+        padding: 0px 18px;
+    }
+    .image_2 {
+        margin-top: 30px;
+    }
+
+}
