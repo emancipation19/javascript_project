@@ -76,7 +76,7 @@
     .logo {
         width: 10%;
     }
-    .banner_taital {
+    .banner_title {
         font-size: 42px;
     }
     .arrival_text {
@@ -93,7 +93,7 @@
     .navbar-light .navbar-toggler {
         border-color: #000;
     }
-    .banner_taital {
+    .banner_title {
         width: 100%;
         font-size: 36px;
         line-height: 50px;
@@ -124,7 +124,7 @@
     .banner_section {
         background: #552583;
     }
-    .banner_taital {
+    .banner_title {
         width: 75%;
         font-size: 42px;
         line-height: 60px;
@@ -151,7 +151,7 @@
     .banner_section {
         background: #552583;
     }
-    .banner_taital {
+    .banner_title {
         width: 95%;
         font-size: 30px;
         line-height: 40px;

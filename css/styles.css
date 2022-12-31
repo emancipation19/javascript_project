@@ -12,22 +12,11 @@
 }
 
 
-/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
- 2) font-family: 'Poppins', sans-serif;
- ----------------------------------------*****/
 
-
-/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
-
-@import url(animate.min.css);
 @import url(css/font-awesome.min.css);
-@import url(meanmenu.css);
-@import url(swiper.min.css);
-@import url(slick.css);
-@import url(jquery.fancybox.min.css);
+
 @import url(jquery-ui.css);
 
-/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
 * {
     box-sizing: border-box !important;
@@ -257,7 +246,7 @@ button {
     padding-bottom: 100px;
 }
 
-.banner_taital {
+.banner_title {
     width: 85%;
     float: left;
     color: #ffffff;
